@@ -1,28 +1,40 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+        <sp-snackbar/>
+        <router-view/>
+    </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import SpSnackbar from "@/components/layout/SpSnackbar";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    name: 'App',
+    components: {SpSnackbar},
+    watch: {
+        $route: {
+            immediate: true,
+            handler(toRoute) {
+                if (toRoute?.meta?.isTab) {
+                    return;
+                }
+                document.title = toRoute?.meta?.title || 'Social Places';
+            },
+        },
+    },
+};
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.theme--light.v-application {
+    background: #f8f9faff !important;
+    color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.theme--light.v-text-field--filled > .v-input__control > .v-input__slot {
+    background: rgb(255, 255, 255) !important;
+}
+
+.container {
+    padding-top: 0 !important;
 }
 </style>
+
