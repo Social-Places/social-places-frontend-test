@@ -5,4 +5,4 @@
 2. Add [Orestes Sebele/orestes-za](orestes@socialplaces.io) and [James Filmer/socialPJames](james@socialplaces.io) as collaborators
 3. Wait for feedback - ETA 5 ~ 7 business days
 
-[Introduction](.readme.md)
+[Introduction](../README.md)
