@@ -1,4 +1,4 @@
-# Social Places
+# Social Places Frontend Assessment
 
 ## Additional Information
 
@@ -32,3 +32,5 @@ After submission, we will use the following rough rubric to evaluate your submis
 
 It is important to note expectations vary based on the role you are applying for; Senior full-stack vs junior back-end will have different levels of critique. 
 Technical abilities aside, we will focus on your character, willingness to adjust, and levels of effort in relation to your experience.
+
+[Introduction](../README.md)
