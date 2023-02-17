@@ -27,8 +27,8 @@ After submission, we will use the following rough rubric to evaluate your submis
         1. A loose metric - scaled by how much of the code and what is tested
 4. Language:
     1. Where language is used does it conform to a professional level and standard
-        1. Things like swear words will get projects disqualified without further examination!
-        2. Things like typos and misspelled words will tally against but not sway the marking heavily
+        1. Profanities will automaticall disqualify candidates
+        2. Typos and misspelled words will tally against you, but not sway the marking heavily
 
 It is important to note expectations vary based on the role you are applying for; Senior full-stack vs junior back-end will have different levels of critique. 
 Technical abilities aside, we will focus on your character, willingness to adjust, and levels of effort in relation to your experience.
