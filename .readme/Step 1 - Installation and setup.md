@@ -17,4 +17,3 @@ we highly recommend it.
 [Vuetify](https://vuetifyjs.com/en/) and [Vue2](https://v2.vuejs.org/v2/guide/) are used as the framework for the test
 
 [Step 2 - Frontend Brief](./Step%202%20-%20Frontend%20Brief.md)
-    
