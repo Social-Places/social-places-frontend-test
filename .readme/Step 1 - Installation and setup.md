@@ -2,7 +2,7 @@
 ## Step 1 - Installation and setup
 Here we outline how to get your application up and running as well as provide any insight that you might need.
 
-1. Fork the repository to your own account
+1. [Mirror](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository) the repository to your own account
    1. Please ensure your repository is private and that you, once complete, invite [Orestes Sebele/orestes-za](orestes@socialplaces.io) and [James Filmer/socialPJames](james@socialplaces.io) as collaborators 
    2. Your assessment should be in separate branches to main/master
    3. Use branches and create individual pull requests for each task. This makes it easier to review the code changes later
