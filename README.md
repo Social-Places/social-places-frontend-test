@@ -6,12 +6,11 @@ listings, reputation, bookings and social interactions across multiple platforms
 For a great summary of the services we offer, please watch our
 [2021 Product Overview](https://www.youtube.com/watch?v=CLQeB5pFpNw) [2:47] YouTube video.
 
-#### Developers
+### Developers
 We are looking for developer talent to join our team. Here you'll find a
 basic application outfitted in our tech stack but in a much more limited sense.
 To do the test, you'll find a brief below containing some items to implement
 and other sorts of tasks to complete.
-
 
 ## How to Proceed:
 1. [Step 1 - Installation and Setup](./.readme/Step%201%20-%20Installation%20and%20setup.md)
