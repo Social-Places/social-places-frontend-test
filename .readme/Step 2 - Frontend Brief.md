@@ -1,4 +1,4 @@
-# Social Places
+# Social Places Frontend Assessment
 ## Step 2 - Frontend Brief
 ### What to do?
 1. Using Vuetify, together with the theme of the mock login page, create a profile page that loads in dummy user data.
@@ -10,7 +10,7 @@
 2. Provide some tests showcasing the use of custom components working and some potential shortcomings and failures using chai
 3. Write a basic E2E test using [cypress](https://www.cypress.io/) of your workflow
 
-[Step 3 - Completion](./Step%203%20-%20Completion.md)
-
 ### Testing
 To run the tests, run `npm run test:unit` for the unit tests and the `npm run test:e2e` for the end-to-end testing.
+
+[Step 3 - Completion](./Step%203%20-%20Completion.md)
