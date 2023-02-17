@@ -1,4 +1,4 @@
-# Social Places
+# Social Places Frontend Assessment
 ## Step 1 - Installation and setup
 Here we outline how to get your application up and running as well as provide any insight that you might need.
 
