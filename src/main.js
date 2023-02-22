@@ -43,6 +43,6 @@ new Vue({
   vuetify,
   httpClient,
   router,
-  render: h => h(App),
   el: '#app',
+  render: h => h(App),
 }).$mount('#app');

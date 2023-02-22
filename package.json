@@ -25,11 +25,12 @@
     "@vue/cli-plugin-e2e-cypress": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-plugin-unit-mocha": "~5.0.0",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "@vue/eslint-config-standard": "^6.1.0",
     "@vue/test-utils": "^1.1.3",
-    "chai": "^4.2.0",
+    "@vue/vue2-jest": "^27.0.0-alpha.2",
+    "babel-jest": "^27.0.6",
     "cypress": "^9.7.0",
     "eslint": "7.32.0",
     "eslint-plugin-import": "^2.25.3",
@@ -40,7 +41,8 @@
     "sass-loader": "^12.0.0",
     "vue-cli-plugin-vuetify": "^2.5.8",
     "vue-template-compiler": "^2.6.14",
-    "vuetify-loader": "^1.7.0"
+    "vuetify-loader": "^1.7.0",
+    "jest": "^27.5.1"
   },
   "eslintConfig": {
     "root": true,

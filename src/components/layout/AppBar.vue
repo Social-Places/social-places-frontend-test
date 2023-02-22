@@ -6,7 +6,7 @@
             height="40px"
             width="40px"
             @click="changeSidebarState">
-            <v-icon>{{ sideBarStateIcon }}</v-icon>
+            <v-icon data-testid="icon">{{ sideBarStateIcon }}</v-icon>
         </v-btn>
         <div class="d-flex flex-column pl-8">
             <v-toolbar-title class="font-weight-bold primary--text" v-text="pageHeading"/>
@@ -55,7 +55,7 @@ export default {
             }
         },
         pageHeading() {
-            return this.$route.meta.header;
+            return this.$route?.meta?.header || '';
         },
         breadCrumbs() {
             let routes = [{
@@ -63,16 +63,20 @@ export default {
                 // href: match.path,
                 to: {name: 'Dashboard'},
                 exact: true,
-                disabled: 'Dashboard' === this.$route.name,
+                disabled: 'Dashboard' === this.$route?.name,
             }];
 
-            if (this.$route.name !== 'Dashboard') {
+            if (typeof this.$route === "undefined") {
+                return routes;
+            }
+
+            if (this.$route?.name !== 'Dashboard') {
                 for (let matched of this.$route.matched) {
                     if (matched.name?.indexOf('Entry') !== -1 || matched.name?.indexOf('Index') !== -1) {
                         continue;
                     }
                     routes.push({
-                        text: matched.meta.header,
+                        text: matched?.meta.header,
                         // href: matched.path,
                         to: {name: matched.redirect ?? matched.name},
                         exact: true,

@@ -1,12 +1,27 @@
-import { expect } from 'chai'
-import { mount } from '@vue/test-utils'
+import { mount, createLocalVue } from '@vue/test-utils'
+import Vuetify from "vuetify";
 import AppBar from "@/components/layout/AppBar";
 
+import Vue from 'vue'
+import {RouterLink} from "vue-router";
+Vue.use(Vuetify)
+Vue.component('router-link', () => RouterLink);
+
 describe('AppBar.vue', () => {
-  it('renders props.msg when passed', () => {
+  const localVue = createLocalVue()
+
+  let vuetify;
+  beforeEach(() => {
+    vuetify = new Vuetify()
+  });
+
+  it('renders when passed', () => {
     const wrapper = mount(AppBar, {
-      props: { sideBarState: 'full' }
+      localVue,
+      vuetify,
+      // router,
+      propsData: { sideBarState: 'full' }
     })
-    expect(wrapper).to.include('fas fa-list-ul')
+    expect(wrapper.find('[data-testid="icon"]').classes()).toContain('fa-list-ul')
   })
 })
