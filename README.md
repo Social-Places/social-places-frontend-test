@@ -12,8 +12,7 @@ We are Social Places; a local marketing software agency that provides listings, 
 ### Step 1 - Installation and setup
 
 1. [Mirror](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository) the repository to your own account
-    1. Please ensure your repository is private and that you, once complete, invite [Orestes Sebele/orestes-za](orestes@socialplaces.io)
-       and [James Filmer/socialPJames](james@socialplaces.io) as collaborators
+    1. Please ensure your repository is private and that you, once complete, invite [Orestes Sebele/orestes-za](orestes@socialplaces.io), [James Filmer/socialPJames](james@socialplaces.io), [Nik Soebaran/N1K-5oc1alplac3s](nik@socialplaces.io) and [Matthew Henshilwood/matt-socialplaces](matthew@socialplaces.io) as collaborators
     2. Your assessment should be in separate branches to main/master
 2. Clone the forked repository using your preferred git client
     1. While it is not imperative that a git client such as [GitHub Desktop](https://desktop.github.com) or [Fork](https://git-fork.com/) is used,
@@ -54,5 +53,5 @@ Please feel free to add creative touches!
 #### Submission
 
 1. Submit the work in your **private** repository as described in Step 1
-2. Add [Orestes Sebele/orestes-za](orestes@socialplaces.io), [James Filmer/socialPJames](james@socialplaces.io), [Nik Soebaran](nik@socialplaces.io) and [Matthew Henshilwood/matt-socialplaces](matthew@socialplaces.io) as collaborators
+2. Add [Orestes Sebele/orestes-za](orestes@socialplaces.io), [James Filmer/socialPJames](james@socialplaces.io), [Nik Soebaran/N1K-5oc1alplac3s](nik@socialplaces.io) and [Matthew Henshilwood/matt-socialplaces](matthew@socialplaces.io) as collaborators
 3. Wait for feedback - ETA 5 ~ 7 business days
