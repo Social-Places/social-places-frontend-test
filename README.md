@@ -34,6 +34,8 @@ After the user has selected their choice of animal, request a random image using
 - **Cat:** https://developers.thecatapi.com
 - **Dog:** https://dog.ceo/dog-api
 
+Use the supplied JS template classes to handle the page state and the calls to the external API.
+
 We're looking for a well-designed page that respects modern conventions and demonstrates your attention to detail.
 
 Your solution should:
@@ -43,7 +45,7 @@ Your solution should:
 - Show thoughtful component organisation and code architecture
 - Balance visual appeal with functional usability
 - Demonstrate your understanding of modern frontend best practices
-- Add tests where appropriate and/or applicable.
+- Add tests where appropriate and/or applicable
 
 Please feel free to add creative touches! 
 
